@@ -21,7 +21,7 @@ $(document).ready(() => {
               <div class="well text-center">
                 <img src="https://image.tmdb.org/t/p/w500${movie.poster_path}">
                 <h5>${movie.title}</h5>
-                <a onclick="combinedFunction('${movie.id}')" class="btn btn-primary" href="#">Movie Details</a>
+                <a onclick="movieSelected('${movie.id}')" class="btn btn-primary" href="#">Movie Details</a>
               </div>
             </div>
           `;
